@@ -1,6 +1,6 @@
 == Official API documentation for iOS_Rails_Backend
 
-Production endpoint is located at http://still-castle-7483.herokuapp.com/v1/. (The API version is scoped via the URL.)
+This is the Rails backend for an iPhone (Or iPad or Android... Whatever.) app. The Production endpoint is located at http://still-castle-7483.herokuapp.com/v1/. (The API version is scoped via the URL.)
 
 For example:
 
