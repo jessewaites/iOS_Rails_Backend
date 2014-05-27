@@ -1,12 +1,10 @@
 == Official API documentation for iOS_Rails_Backend
 
-Staging endpoints will be located at ios-rails-backend.herokuapp.com. Production endpoints are located at api.ios-rails-backend.herokuapp.com. API version is scoped via the URL. 
-
-*** Note: Those URLS are subject to change ***
+Production endpoint is located at http://still-castle-7483.herokuapp.com/v1/. (The API version is scoped via the URL.)
 
 For example:
 
-https://api.ios-rails-backend.herokuapp.com/v1/events/:id
+http://still-castle-7483.herokuapp.com/v1/events/1
 
 All POST and PATCH endpoints accept JSON data in the body of the request. All requests require a 'Content-Type': 'application/json' header. All responses are JSON.
 
