@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 20140528013936) do
     t.string   "name",       null: false
     t.integer  "user_id",    null: false
     t.datetime "started_at", null: false
-    t.string   "address"
+    t.string   "address", null: false
     t.float    "lat",        null: false
     t.float    "lon",        null: false
   end
@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 20140528013936) do
   create_table "users", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "device_token"
+    t.string   "device_token", null: false
   end
 
 end
